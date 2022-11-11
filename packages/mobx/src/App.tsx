@@ -1,9 +1,8 @@
 import React from "react";
 import { ChakraProvider, Flex, Heading } from "@chakra-ui/react";
 import { Provider } from "mobx-react";
-import CountText from "./CountText";
-import Controller from "./Controller";
-import CountStore from "./CountStore";
+import { Controller, CountText } from "components";
+import CountStore from "store/CountStore";
 
 function App() {
   const counter = new CountStore();
