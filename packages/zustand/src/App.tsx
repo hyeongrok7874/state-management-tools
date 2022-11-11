@@ -1,6 +1,5 @@
 import { ChakraProvider, Flex, Heading } from "@chakra-ui/react";
-import Controller from "./Controller";
-import CountText from "./CountText";
+import { Controller, CountText } from "components";
 
 function App() {
   return (
