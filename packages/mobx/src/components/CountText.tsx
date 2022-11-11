@@ -1,6 +1,6 @@
 import { Text } from "@chakra-ui/react";
 import { observer } from "mobx-react";
-import useStore from "./useStore";
+import useStore from "hooks/useStore";
 
 const CountText = observer(() => {
   const {

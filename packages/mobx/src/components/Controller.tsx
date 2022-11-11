@@ -1,6 +1,6 @@
 import { Button, Flex } from "@chakra-ui/react";
-import useStore from "./useStore";
-import { observer, inject } from "mobx-react";
+import useStore from "hooks/useStore";
+import { observer } from "mobx-react";
 
 export default observer(function Controller() {
   const {
