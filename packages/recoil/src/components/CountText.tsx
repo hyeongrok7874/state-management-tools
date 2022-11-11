@@ -1,5 +1,5 @@
 import { useRecoilState } from "recoil";
-import countAtom from "./countAtom";
+import countAtom from "atom/countAtom";
 import { Text } from "@chakra-ui/react";
 
 const CountText = () => {
