@@ -1,7 +1,6 @@
 import { ChakraProvider, Flex, Heading } from "@chakra-ui/react";
-import Controller from "./Controller";
+import { Controller, CountText } from "components";
 import { RecoilRoot } from "recoil";
-import CountText from "./CountText";
 
 function App() {
   return (
