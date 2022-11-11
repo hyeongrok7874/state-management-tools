@@ -1,5 +1,5 @@
 import { Button, Flex } from "@chakra-ui/react";
-import useStore from "./store";
+import useStore from "store/useStore";
 
 export default function Controller() {
   const { count, setCount } = useStore();

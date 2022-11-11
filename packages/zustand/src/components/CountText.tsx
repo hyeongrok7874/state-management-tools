@@ -1,5 +1,5 @@
 import { Text } from "@chakra-ui/react";
-import useStore from "./store";
+import useStore from "store/useStore";
 
 const CountText = () => {
   const { count } = useStore();
