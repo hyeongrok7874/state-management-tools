@@ -1,10 +1,8 @@
-import useStore from "./store";
-import { Text, ChakraProvider, Flex, Heading } from "@chakra-ui/react";
+import { ChakraProvider, Flex, Heading } from "@chakra-ui/react";
 import Controller from "./Controller";
+import CountText from "./CountText";
 
 function App() {
-  const { count } = useStore();
-
   return (
     <ChakraProvider>
       <Flex
@@ -14,7 +12,7 @@ function App() {
         flexDirection="column"
       >
         <Heading fontSize="100px">zustand</Heading>
-        <Text fontSize="200px">{count}</Text>
+        <CountText />
         <Controller />
       </Flex>
     </ChakraProvider>
