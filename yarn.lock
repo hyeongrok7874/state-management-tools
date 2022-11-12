@@ -7607,9 +7607,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^7.6.5":
-  version: 7.6.5
-  resolution: "framer-motion@npm:7.6.5"
+"framer-motion@npm:^7.6.5, framer-motion@npm:^7.6.6":
+  version: 7.6.6
+  resolution: "framer-motion@npm:7.6.6"
   dependencies:
     "@emotion/is-prop-valid": ^0.8.2
     "@motionone/dom": 10.13.1
@@ -7624,7 +7624,7 @@ __metadata:
   dependenciesMeta:
     "@emotion/is-prop-valid":
       optional: true
-  checksum: d9a288e009c6b0a7ab8f8d8d6761da2335697468863d5eceaa2cf09ded8f016690b6c7b3fa683f9d14c9bd50dc57c0586fd5c2063d5851520f6982669ad93a65
+  checksum: 2a243dbfb1ceeb2ca54e0113fdc2a388e3d74ae6aa232de6534c80d883b25f227c7ccd4f32b12545bff758bba723e3992407ddc45e859409411096ab90a3f709
   languageName: node
   linkType: hard
 
@@ -9416,6 +9416,64 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jotai@npm:^1.9.2":
+  version: 1.9.2
+  resolution: "jotai@npm:1.9.2"
+  peerDependencies:
+    "@babel/core": "*"
+    "@babel/template": "*"
+    immer: "*"
+    jotai-tanstack-query: "*"
+    jotai-urql: "*"
+    optics-ts: "*"
+    react: ">=16.8"
+    valtio: "*"
+    xstate: "*"
+  peerDependenciesMeta:
+    "@babel/core":
+      optional: true
+    "@babel/template":
+      optional: true
+    immer:
+      optional: true
+    jotai-tanstack-query:
+      optional: true
+    jotai-urql:
+      optional: true
+    optics-ts:
+      optional: true
+    valtio:
+      optional: true
+    xstate:
+      optional: true
+  checksum: b8a632eb95822d4037200861f55b08c8ee21d5c9d622b2c015812016730d952a43c0385125fd626c61b77d82b332428fba4618b2691f589ff13fa2f3a39dcfb5
+  languageName: node
+  linkType: hard
+
+"jotai@workspace:packages/jotai":
+  version: 0.0.0-use.local
+  resolution: "jotai@workspace:packages/jotai"
+  dependencies:
+    "@chakra-ui/react": ^2.3.7
+    "@emotion/react": ^11.10.5
+    "@emotion/styled": ^11.10.5
+    "@testing-library/jest-dom": ^5.16.5
+    "@testing-library/react": ^13.4.0
+    "@testing-library/user-event": ^13.5.0
+    "@types/jest": ^27.5.2
+    "@types/node": ^16.18.3
+    "@types/react": ^18.0.25
+    "@types/react-dom": ^18.0.8
+    framer-motion: ^7.6.6
+    jotai: ^1.9.2
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-scripts: 5.0.1
+    typescript: ^4.8.4
+    web-vitals: ^2.1.4
+  languageName: unknown
+  linkType: soft
+
 "js-sdsl@npm:^4.1.4":
   version: 4.1.5
   resolution: "js-sdsl@npm:4.1.5"
@@ -10171,7 +10229,6 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
-    recoil: ^0.7.6
     typescript: ^4.8.4
     web-vitals: ^2.1.4
   languageName: unknown
@@ -13356,8 +13413,8 @@ __metadata:
   linkType: hard
 
 "tailwindcss@npm:^3.0.2":
-  version: 3.2.3
-  resolution: "tailwindcss@npm:3.2.3"
+  version: 3.2.4
+  resolution: "tailwindcss@npm:3.2.4"
   dependencies:
     arg: ^5.0.2
     chokidar: ^3.5.3
@@ -13387,7 +13444,7 @@ __metadata:
   bin:
     tailwind: lib/cli.js
     tailwindcss: lib/cli.js
-  checksum: 5a31815c69d3ecfb6ed4882942d6e0dc3b79e5dbbadd758ccebe99d66d403b29d80b7b73dec0a81ee21ada4ec8e9d467dd1bc14b559726c5a19425030f29aea9
+  checksum: ec187d180c722ec4f57537f2216c7b21269b525f12aaf353cea464d939c3e6286a1221eb3e1206e45d1f015f296171309ad4d9952899b0245cd07d9500a9401f
   languageName: node
   linkType: hard
 
