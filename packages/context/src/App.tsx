@@ -1,23 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import { ChakraProvider, Flex, Heading } from "@chakra-ui/react";
+import { Controller, CountText } from "components";
+import Context from "./context";
 
 function App() {
+  const [count, setCount] = useState<number>(0);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <ChakraProvider>
+      <Context.Provider value={{ count, setCount }}>
+        <Flex
+          height="100vh"
+          justifyContent="center"
+          alignItems="center"
+          flexDirection="column"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <Heading fontSize="100px">Context</Heading>
+          <CountText />
+          <Controller />
+        </Flex>
+      </Context.Provider>
+    </ChakraProvider>
   );
 }
 
