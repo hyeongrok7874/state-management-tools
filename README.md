@@ -2,4 +2,9 @@
 
 ## scripts
 
-`yarn workspace workspace-name command`
+```bash
+yarn workspace ${workspace-name} ${command}
+
+// ex
+yarn workspace zustand start
+```
