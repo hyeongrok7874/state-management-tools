@@ -6019,6 +6019,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"constate@workspace:packages/constate":
+  version: 0.0.0-use.local
+  resolution: "constate@workspace:packages/constate"
+  dependencies:
+    "@types/react": ^18
+    "@types/react-dom": ^18
+    cra-template-typescript: 1.2.0
+    react: 18.2.0
+    react-dom: 18.2.0
+    react-scripts: 5.0.1
+  languageName: unknown
+  linkType: soft
+
 "content-disposition@npm:0.5.4":
   version: 0.5.4
   resolution: "content-disposition@npm:0.5.4"
@@ -6142,6 +6155,13 @@ __metadata:
     path-type: ^4.0.0
     yaml: ^1.10.0
   checksum: 4be63e7117955fd88333d7460e4c466a90f556df6ef34efd59034d2463484e339666c41f02b523d574a797ec61f4a91918c5b89a316db2ea2f834e0d2d09465b
+  languageName: node
+  linkType: hard
+
+"cra-template-typescript@npm:1.2.0":
+  version: 1.2.0
+  resolution: "cra-template-typescript@npm:1.2.0"
+  checksum: ab10999bf9ebb71c83e4c958a57e49614b4715fe410c87b581217817c3a5e28a900130ee09e2ff95968930e8da1c0fc71d63095a5af9388df692d6cde8fc4325
   languageName: node
   linkType: hard
 
@@ -9694,7 +9714,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
-    typescript: ^4.8.4
+    typescript: ^4.9.4
     web-vitals: ^2.1.4
   languageName: unknown
   linkType: soft
@@ -10463,7 +10483,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
-    typescript: ^4.8.4
+    typescript: ^4.9.4
     web-vitals: ^2.1.4
   languageName: unknown
   linkType: soft
@@ -12196,7 +12216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^18.2.0":
+"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -12421,7 +12441,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^18.2.0":
+"react@npm:18.2.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -12509,7 +12529,7 @@ __metadata:
     react-dom: ^18.2.0
     react-scripts: 5.0.1
     recoil: ^0.7.6
-    typescript: ^4.8.4
+    typescript: ^4.9.4
     web-vitals: ^2.1.4
   languageName: unknown
   linkType: soft
@@ -12557,7 +12577,7 @@ __metadata:
     react-redux: ^8.0.5
     react-scripts: 5.0.1
     redux: ^4.2.0
-    typescript: ^4.8.4
+    typescript: ^4.9.4
   languageName: unknown
   linkType: soft
 
@@ -13386,7 +13406,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
-    typescript: ^4.4.2
+    typescript: ^4.9.4
     web-vitals: ^2.1.0
   languageName: unknown
   linkType: soft
@@ -14049,7 +14069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.4.2, typescript@npm:^4.8.4, typescript@npm:^4.9.4":
+"typescript@npm:^4.9.4":
   version: 4.9.4
   resolution: "typescript@npm:4.9.4"
   bin:
@@ -14059,7 +14079,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@^4.4.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.8.4#~builtin<compat/typescript>, typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
+"typescript@patch:typescript@^4.9.4#~builtin<compat/typescript>":
   version: 4.9.4
   resolution: "typescript@patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=ad5954"
   bin:
@@ -14348,7 +14368,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
-    typescript: ^4.8.4
+    typescript: ^4.9.4
     valtio: ^1.7.5
     web-vitals: ^2.1.4
   languageName: unknown
@@ -15081,7 +15101,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     react-scripts: 5.0.1
-    typescript: ^4.8.4
+    typescript: ^4.9.4
     web-vitals: ^2.1.4
     zustand: ^4.1.4
   languageName: unknown
